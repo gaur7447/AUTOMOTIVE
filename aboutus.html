@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars</title>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1 style="color: red;">AUTOMOTIVE</h1>
+            <div class="menu">
+                <a href="index.htm">Home</a>
+                <a href="#">Modification</a>
+                <a href="#">Tunnening</a>
+                <a href="#">Gallery</a>
+                <a href="aboutus.html">About</a>
+                <a href="#">Contact</a>
+            </div>
+
+     
+        </nav>
+    </header>
+    
+    <div class="hero">
+
+        <div class="text">
+            
+            <p>Welcome to <a style="color: red;">AUTOMOTIVE</a>, your ultimate destination<br>
+                 for high-quality car modifications! We are passionate<br>
+                  automotive enthusiasts dedicated to transforming ordinary<br>
+                   vehicles into extraordinary machines. Our expertise ranges<br>
+                   
+                   from performance upgrades and aesthetic enhancements to custom<br>
+                    modifications that reflect your unique style.<br>
+
+                At <a style="color: red;">AUTOMOTIVE</a>, we believe in precision, innovation,
+                 and excellence.<br> Our team of skilled professionals uses cutting-edge technology<br>
+                  and the finest materials to ensure your car stands out on the road.<br> Whether you’re
+                   looking to boost performance, enhance comfort, or elevate <br>your car’s appearance, we’ve got you covered.
+                
+                Join us on this exciting journey<br> and experience the thrill of a perfectly modified car. Drive with pride, drive with <br><a style="color: red;">AUTOMOTIVE.</a><br>
+                
+                Ready to rev up your ride? Let's get started! 🚗💨</p>
+            
+        </div>
+    </div>
+
+    <script>
+        let heroBg = document.querySelector('.hero');
+
+        setInterval(() => {
+            heroBg.style.backgroundImage = "url(img/bg-light.jpg)"
+            
+            setTimeout(() => {
+                heroBg.style.backgroundImage = "url(img/bg.jpg)"
+            }, 1000);
+        }, 2200);
+    </script>
+</body>
+</html>
